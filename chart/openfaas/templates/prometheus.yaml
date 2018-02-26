@@ -14,7 +14,6 @@ spec:
   type: ClusterIP
   ports:
     - port: 9090
-      hostPort: 9090
       protocol: TCP
   selector:
     app: prometheus
